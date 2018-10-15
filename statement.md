@@ -9,10 +9,20 @@ public class Main {
 public static void main(String[] args) {
 // }
 
-String message = "Hello World!";
-System.out.println(message);
+  fibonacci(10);
 
 //{ autofold
+}
+
+public void fibonacci(int val){
+  if(val==0){
+    System.out.println(0);
+  }else if(val==1){
+    System.out.println(1);
+  }else{
+    System.out.println(val+fibonacci(val+1));
+  }
+  
 }
 
 }

@@ -23,6 +23,7 @@ public int void fibonacci(int val){
     return(1);
   }else{
     System.out.println(val+fibonacci(val+1));
+    return(-1);
   }
   
 }

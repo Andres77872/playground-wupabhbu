@@ -14,11 +14,13 @@ public static void main(String[] args) {
 //{ autofold
 }
 
-public static void fibonacci(int val){
+public int void fibonacci(int val){
   if(val==0){
     System.out.println(0);
+    return 0;
   }else if(val==1){
     System.out.println(1);
+    return(1);
   }else{
     System.out.println(val+fibonacci(val+1));
   }

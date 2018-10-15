@@ -14,7 +14,7 @@ public static void main(String[] args) {
 //{ autofold
 }
 
-public void fibonacci(int val){
+public static void fibonacci(int val){
   if(val==0){
     System.out.println(0);
   }else if(val==1){
